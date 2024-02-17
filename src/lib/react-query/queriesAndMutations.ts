@@ -3,7 +3,6 @@ import {
   useQuery,
   useMutation,
   useQueryClient,
-  useInfiniteQuery,
 } from "@tanstack/react-query";
 import {
   SignInAccount,
@@ -13,7 +12,6 @@ import {
   deletePost,
   deleteSavedPost,
   getCurrentUser,
-  getInfinitePosts,
   getPostById,
   getRecentPosts,
   likePost,
